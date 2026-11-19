@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reportproof-mcp"
+version = "0.1.0"
+description = "MCP server that checks every number in AI-written marketing reports (GA4, Google Ads, Meta Ads) against the data."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+dependencies = []
+
+[project.scripts]
+reportproof-mcp = "reportproof_mcp.server:main"
+
+[tool.setuptools]
+packages = ["reportproof_mcp"]
