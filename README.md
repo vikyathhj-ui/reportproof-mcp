@@ -21,6 +21,8 @@ It pairs with the official **Google Analytics MCP** and **Google Ads MCP** serve
 - **Google Ads API `search` / `searchStream` response**, unchanged: `data: [{name, google_ads: {...}}]`
 
 ## Install
+**Try it first, no sign-up:** https://reportproof-api.onrender.com/try
+
 You need a ReportProof API key. The **free plan** (50 calls/month) is at [rapidapi.com/VikyathJ/api/reportproof](https://rapidapi.com/VikyathJ/api/reportproof).
 
 **Claude Desktop / Cursor / any MCP client** (needs [uv](https://docs.astral.sh/uv/)):
